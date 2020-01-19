@@ -1,6 +1,5 @@
 input{
     width: 50%;
-    height:5px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 1rem;
@@ -20,7 +19,6 @@ input:focus {
   }
 textarea{
     width: 50%;
-    height:26px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 1rem;
