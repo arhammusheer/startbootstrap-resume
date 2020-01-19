@@ -1,9 +1,12 @@
 input{
-    width: 30%;
+    width: 50%;
+    height:5px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 1rem;
     font-size: 16px;
+    font-style: 'Montserrat';
+    font-weight: bold;
     background-color: white;
     background-position: 10px 10px; 
     background-repeat: no-repeat;
@@ -12,15 +15,18 @@ input{
     transition: all 0.4s ease-in-out;
   }
 input:focus {
-    transform: scale(1.1);
-    width:60%;
+    width:90%;
+    height:3rem;
   }
 textarea{
-    width: 30%;
+    width: 50%;
+    height:26px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 1rem;
     font-size: 16px;
+    font-weight: bold;
+    font-style: 'Montserrat';
     background-color: white;
     background-position: 10px 10px; 
     background-repeat: no-repeat;
@@ -30,7 +36,8 @@ textarea{
     resize: none;
   }
 textarea:focus {
-    transform: scale(1.5);
+    width:90%;
+    height:13rem;
   }
 button {
   background-color: white;
