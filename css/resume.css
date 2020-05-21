@@ -79,6 +79,10 @@ p.lead {
   font-size: 3rem;
 }
 
+.dev-icons .list-inline-item i{
+  transition: all 0.25s ease-in-out;
+}
+
 .dev-icons .list-inline-item i:hover {
   color: #3881bd;
 }
