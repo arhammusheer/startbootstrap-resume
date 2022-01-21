@@ -3,9 +3,9 @@ import Dad from "./Dad";
 
 export default function Projects() {
   return (
-    <Box h={"50vh"}>
+    <Box h={"50vh"} m={10}>
       <Text
-        fontSize={{base:"20vw", md:"10vw"}}
+        fontSize={{base:"17vw", md:"8vw"}}
         color={useColorModeValue("gray.400", "gray.600")}
       >
         Projects

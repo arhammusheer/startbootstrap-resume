@@ -1,15 +1,12 @@
 import * as React from "react";
-import {
-  ChakraProvider,
-  Box,
-  Flex,
-  Spacer,
-} from "@chakra-ui/react";
+import { ChakraProvider, Box, Flex, Spacer } from "@chakra-ui/react";
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
 import Projects from "./components/Projects";
 import Name from "./components/Name";
 import theme from "./theme";
 import AboutMe from "./components/AboutMe";
+import Education from "./components/Education";
+import Work from "./components/Work";
 
 import "@fontsource/raleway/700.css";
 import "@fontsource/open-sans/400.css";
@@ -24,6 +21,8 @@ export const App = () => (
       </Flex>
       <AboutMe />
       <Projects />
+      <Work />
+      <Education />
     </Box>
   </ChakraProvider>
 );
