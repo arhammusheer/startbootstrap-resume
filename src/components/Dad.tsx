@@ -50,44 +50,40 @@ const Dad = () => {
   );
 
   return (
-    <Flex>
-      <Spacer />
-      <Box
-        border={"1px"}
-        borderRadius={"lg"}
-        borderColor={useColorModeValue("gray.200", "gray.700")}
-        shadow={"md"}
-        width={{ base: "90%", md: "40rem" }}
-      >
-        <Stack direction={{ base: "column", md: "row" }}>
-          <Heading
-            size={"4xl"}
-            // textColor={"white"}
-            pt={{ base: 4, md: 20 }}
-            p={4}
-            textAlign={{ base: "left", md: "right" }}
-          >
-            Dad Bot
-          </Heading>
-          <Center w={"100%"} p={3}>
-            <Fade in={isOpen}>{joke}</Fade>
-          </Center>
-        </Stack>
-        <Flex p={1}>
-          <Spacer />
-          <IconButton
-            variant={"ghost"}
-            justifySelf={"flex-end"}
-            aria-label={"Reload"}
-            icon={<AnimatedFaSync />}
-            onClick={() => {
-              getJoke();
-            }}
-          />
-        </Flex>
-      </Box>
-      <Spacer />
-    </Flex>
+    <Box
+      border={"1px"}
+      borderRadius={"lg"}
+      borderColor={useColorModeValue("gray.200", "gray.700")}
+      shadow={"md"}
+      width={{ base: "90%", md: "40rem" }}
+    >
+      <Stack direction={{ base: "column", md: "row" }}>
+        <Heading
+          size={"4xl"}
+          // textColor={"white"}
+          pt={{ base: 4, md: 20 }}
+          p={4}
+          textAlign={{ base: "left", md: "right" }}
+        >
+          Dad Bot
+        </Heading>
+        <Center w={"100%"} p={3}>
+          <Fade in={isOpen}>{joke}</Fade>
+        </Center>
+      </Stack>
+      <Flex p={1}>
+        <Spacer />
+        <IconButton
+          variant={"ghost"}
+          justifySelf={"flex-end"}
+          aria-label={"Reload"}
+          icon={<AnimatedFaSync />}
+          onClick={() => {
+            getJoke();
+          }}
+        />
+      </Flex>
+    </Box>
   );
 };
 
