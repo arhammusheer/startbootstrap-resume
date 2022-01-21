@@ -18,7 +18,12 @@ export default function AboutMe() {
         >
           A student/web developer
         </Text>
-				<Text style={{position:"absolute", rotate:"90deg", translate:"50vw 50vh"}} fontSize={200}>🥐</Text>
+        <Text
+          style={{ position: "absolute", translate: "0 50vh" }}
+          fontSize={200}
+        >
+          🥐
+        </Text>
       </Stack>
     </Box>
   );
