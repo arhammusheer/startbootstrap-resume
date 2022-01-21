@@ -2,7 +2,7 @@ import { Box, Text, useColorModeValue, Stack } from "@chakra-ui/react";
 
 export default function Work() {
   return (
-    <Box h={"50vh"} m={10}>
+    <Box h={"100vh"} m={10}>
       <Text
         fontSize={{base:"12vw", md:"8vw"}}
         color={useColorModeValue("gray.400", "gray.600")}
