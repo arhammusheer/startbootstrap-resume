@@ -5,10 +5,8 @@ import {
   useColorModeValue,
   Text,
   Image,
-  Flex,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-import totoro from "../totoro-transparent.gif";
 import groove from "../groovebob.gif"
 
 export default function AboutMe() {
