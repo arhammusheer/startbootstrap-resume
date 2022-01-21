@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import totoro from "../totoro-transparent.gif";
+import groove from "../groovebob.gif"
 
 export default function AboutMe() {
   return (
@@ -39,8 +40,9 @@ export default function AboutMe() {
           >
             A student/web developer🥐
           </Text>
+					<Image src={groove} alt="groovebob" />
         </motion.div>
-        <Flex
+        {/* <Flex
           w={"100%"}
           justifyContent={"flex-end"}
           style={{ overflowX: "hidden" }}
@@ -52,7 +54,7 @@ export default function AboutMe() {
           >
             <Image src={totoro} alt="totoro" />
           </motion.div>
-        </Flex>
+        </Flex> */}
       </Stack>
     </Box>
   );
